@@ -1,0 +1,12 @@
+{
+  "files": [
+    {
+      "path": "production_snapshot/all59/build_case106_three_whole_supported_targets_pilot3_QH_v1.py",
+      "SHA256": "8f751d22c7463c2d0b146eb19f73388cd2164a62c99ff8c2e41face2024ac7bb",
+      "line": 14,
+      "error": "unexpected indent",
+      "role": "unchanged historical candidate, NOT executable current entrypoint"
+    }
+  ],
+  "note": "Keep original failed candidate bytes for provenance. No implicit execution and no claim all historical candidates succeeded."
+}

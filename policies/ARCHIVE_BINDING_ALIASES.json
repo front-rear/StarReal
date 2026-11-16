@@ -1,0 +1,13 @@
+{
+  "schema": "StarReal.exact_unchanged_source_binding_alias.v1",
+  "aliases": {
+    "StarReal/11/revisions/move_blue_wall_v6/case_11_move_blue_wall_v6.tar.gz": {
+      "archive_SHA256": "2367fd2e76e4c4c4ed24c3db8c6e9ae77f6bd1d5802eee86229700e6ff720787",
+      "unchanged_source_reference_Remove_binding_archive": "StarReal/11/revisions/fixed_world_yellow_depth_v5/case_11_fixed_world_yellow_depth_v5.tar",
+      "parent_archive_SHA256": "bed934d195337c677e59a1215f67fef2e75aea80de7984d7e4a0af601536cffb",
+      "unchanged_source_cameras_SHA256": "c2285ca81adfb9073ea03cf7b13d9fede04b0bad6807f0dca8ea84c0c205b529",
+      "unchanged_source_appearance_SHA256": "d821690229ad3266bbdb44324592c6dc16c6863f3ab8a2260d962474f2d22b25",
+      "source_RGB_SAM_Remove_all_other_tasks_byte_identical_proof": "UNCHANGED_OTHER_TASKS_SHA_PROOF.json"
+    }
+  }
+}

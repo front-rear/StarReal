@@ -1,0 +1,715 @@
+{
+  "at": "2026-11-16T12:44:28.227188+00:00",
+  "current_cases": 54,
+  "required_cases": 59,
+  "all59_complete": false,
+  "source_HF_commit": "a7198a77e92831b4a9fbc207d33766a5c74b3580",
+  "data_repo": "FrontRear/VLMdataset",
+  "data_folder": "StarReal",
+  "unique_raw_GLB_assets": 186,
+  "profiles": [
+    {
+      "case": "1",
+      "case_id": "rv_pexels3_12237997_1920_1080_24fps",
+      "HF_archive": "StarReal/1/revisions/fixed_world_yellow_depth_v5/case_1_fixed_world_yellow_depth_v5.tar",
+      "archive_LFS_SHA256": "46ba0e6cbb011a9bd1f3021ea612502922c48b9aadc5043666bd08ddf480ed18",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "a89c77357c9b8a64bf5c790dfd71a55411db33cdb804f97ab60ed5d99996cd1f",
+        "role": "observed input A, not edited or novel-view target ground truth"
+      },
+      "source_camera_A_B_SHA256": "b2741b90ed03d024726b51493ddff5130c99b7dbe230f000e64577f72ece9cf4",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "2",
+      "case_id": "rv_1-16-v2_e362aee6-6437-4687-a37d-",
+      "HF_archive": "StarReal/2/revisions/fixed_world_yellow_depth_v5/case_2_fixed_world_yellow_depth_v5.tar",
+      "archive_LFS_SHA256": "92f4f78a22b4911518a998f5660c44c096863a48174ebf9e9813c8c66bfd170d",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "8ffe5b106ff507ad22fb4e2c51b31b0ed25ed01bdc6f2076f72d36b69116375d",
+        "role": "observed input A, not edited or novel-view target ground truth"
+      },
+      "source_camera_A_B_SHA256": "cd5e2c47008f4fb0c2714035266f24b776e1ddba3b98e8dd19bb24841ffa0925",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "3",
+      "case_id": "rv_pexels1_5197240-uhd_3840_2160_25",
+      "HF_archive": "StarReal/3/revisions/fixed_world_yellow_depth_v5/case_3_fixed_world_yellow_depth_v5.tar",
+      "archive_LFS_SHA256": "17d30592bff220cfdb09322a466261cc2539361275dded64da71a87706c1bf45",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "0ff09293e0cf236c9de6c0ae67cea8cbdb154df2c37c7f9ea2b90b7cc9988d61",
+        "role": "observed input A, not edited or novel-view target ground truth"
+      },
+      "source_camera_A_B_SHA256": "b32e35ff4935982b29739819c1421a72c1fb8443149673b0610ebe325c5fa9b0",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "4",
+      "case_id": "rv_pexels1_5197243-uhd_3840_2160_25",
+      "HF_archive": "StarReal/4/revisions/fixed_world_yellow_depth_v5/case_4_fixed_world_yellow_depth_v5.tar",
+      "archive_LFS_SHA256": "a85ddc861ee10b42de61ed03a2f05faf15605786822b6af2e35bf52c16201535",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "7223fd61ebdfdcbb9f8b893ee0ebe1ecdc28df6884c634a9c4698d9da26cfa7a",
+        "role": "observed input A, not edited or novel-view target ground truth"
+      },
+      "source_camera_A_B_SHA256": "226d2882dc6b2ad12cd945fe6c773e79208ac68f0bbf3de5d900d2cedbafc463",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "5",
+      "case_id": "rv_pexels1_6003772-uhd_3840_2160_30",
+      "HF_archive": "StarReal/5/revisions/fixed_world_yellow_depth_v5/case_5_fixed_world_yellow_depth_v5.tar",
+      "archive_LFS_SHA256": "6a8c10db0775c070db24707c8249439b23e720b54af51601c3598a71fb3a603d",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "42fa8386c2b98069affd0ae305d4fdce46a0f06f531abd4d6b67a3d796aafb3e",
+        "role": "observed input A, not edited or novel-view target ground truth"
+      },
+      "source_camera_A_B_SHA256": "94e875e31a142f707988a20a665d4bc8274742590df1ddafb866f3759a94340c",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "6",
+      "case_id": "rv_pexels2_6467633-uhd_4096_2160_25",
+      "HF_archive": "StarReal/6/revisions/fixed_world_yellow_depth_v5/case_6_fixed_world_yellow_depth_v5.tar",
+      "archive_LFS_SHA256": "4425292486230cf40ecee306528b38747e7fdc25c9bec15c97882a1e3b76e4fa",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "96387ddfe1f427e8dccc8aebb60c90f5388a2c9ff715cec3bcd89f76b34d5785",
+        "role": "observed input A, not edited or novel-view target ground truth"
+      },
+      "source_camera_A_B_SHA256": "190d9fe6ea27b63092ddb343a36c9c19739ed10b6af170ad01d8292ddfd0362b",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "7",
+      "case_id": "rv_pexels1_5206017-uhd_3840_2160_25",
+      "HF_archive": "StarReal/7/revisions/fixed_world_yellow_depth_v5/case_7_fixed_world_yellow_depth_v5.tar",
+      "archive_LFS_SHA256": "1d821ffa1661116d98e951411faabe654481b7598fa04195931871e4ec49af01",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "aa2057ac8577835547fd777d428be8f5eb6372cc3f170c540fe2c6f89f5ab542",
+        "role": "observed input A, not edited or novel-view target ground truth"
+      },
+      "source_camera_A_B_SHA256": "e89c09c541410988c57b3ac95e2dd3bc3634a5ef937030d7fe9307f2d1e1f93d",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "8",
+      "case_id": "rv_1-16-v2_4bca7763-5503-4ac7-9a4a-",
+      "HF_archive": "StarReal/8/revisions/fixed_world_yellow_depth_v5/case_8_fixed_world_yellow_depth_v5.tar",
+      "archive_LFS_SHA256": "8d04409ed9193480d4e96f34526a7b90475998a0516bc5ada76d5fb5afa5c2e2",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "554956433e3ce72a2f215634316d49f9f71de3840fefd0d2a3c74a3e28715036",
+        "role": "observed input A, not edited or novel-view target ground truth"
+      },
+      "source_camera_A_B_SHA256": "3f03c323b2337a95aa1f9148b00611385f235ce92fc9095d06206741b196ef3e",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "9",
+      "case_id": "rv_pexels3_7062992-hd_1920_1080_24fps",
+      "HF_archive": "StarReal/9/revisions/fixed_world_yellow_depth_v5/case_9_fixed_world_yellow_depth_v5.tar",
+      "archive_LFS_SHA256": "39a719a8a2d838bace1f0e3c3348333b4bd84e7e01c90bd8594653870b862f08",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "1033f200d9ba876fcfcf6fba4e202691a4a9ac16494a51f1593304463ab4fec2",
+        "role": "observed input A, not edited or novel-view target ground truth"
+      },
+      "source_camera_A_B_SHA256": "578aafb1f014708588f90e01da916e2049ae37093c200d9cdb3739bd103a6afd",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "10",
+      "case_id": "rv_pexels2_6857115-uhd_4096_2160_25fps",
+      "HF_archive": "StarReal/10/revisions/fixed_world_yellow_depth_v5/case_10_fixed_world_yellow_depth_v5.tar",
+      "archive_LFS_SHA256": "4d2e18e6172d98180b135c8c26b096752e30ef2338e89483da40087e69d48369",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "ccc86114eab98051aac37b3970409d2be04a1aa7c99bc8636c3ae25e163ccc42",
+        "role": "observed input A, not edited or novel-view target ground truth"
+      },
+      "source_camera_A_B_SHA256": "1d1751e40210a696a83fa1e0e41147ba9f2ef1a83f837cd15f9d749fc883c619",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "11",
+      "case_id": "rv_pexels3_4058898-uhd_4096_2160_25fps",
+      "HF_archive": "StarReal/11/revisions/move_blue_wall_v6/case_11_move_blue_wall_v6.tar.gz",
+      "archive_LFS_SHA256": "2367fd2e76e4c4c4ed24c3db8c6e9ae77f6bd1d5802eee86229700e6ff720787",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "9591bde434d35675feefb420d4400746f8769aef0583d70a2bd0dce17fee7259",
+        "role": "observed A only, not edited B GT"
+      },
+      "source_camera_A_B_SHA256": "c2285ca81adfb9073ea03cf7b13d9fede04b0bad6807f0dca8ea84c0c205b529",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "13",
+      "case_id": "rv_pexels4_14840454_4096_2160_30fps",
+      "HF_archive": "StarReal/13/revisions/fixed_world_yellow_depth_v5/case_13_fixed_world_yellow_depth_v5.tar",
+      "archive_LFS_SHA256": "016589e90d3e24d3cb67dfe76658ece58e1ee45e3db3cd6093794a158f94d107",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "4da5b0a04e06127df18c2beb3708fc3660238426d3f4f25c74c81cad1e5cf03d",
+        "role": "observed inputA, never edited or targetB GT"
+      },
+      "source_camera_A_B_SHA256": "106404fb72aa05c3bd0d1f328ecf869b4280d7b9c3d7d434dfb96b9bdebb5b2b",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "14",
+      "case_id": "rv_pexels2_9080637-uhd_4096_2160_25fps",
+      "HF_archive": "StarReal/14/revisions/fixed_world_yellow_depth_v5/case_14_fixed_world_yellow_depth_v5.tar",
+      "archive_LFS_SHA256": "a8618f17b5e719a16036887d315f587149602c16867e025201194b96c365156e",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "51456e518a579a64d7d909d27600ba64e92f073961c3823e00d4e3e7bd88b124",
+        "role": "observed inputA, not edited targetB"
+      },
+      "source_camera_A_B_SHA256": "59d7bc4f4fcfb0046c204f2e2dd94cf68348da3785b4a49270186da4b4f1768f",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "15",
+      "case_id": "rv_pexels4_4034125-uhd_4096_2160_25fps",
+      "HF_archive": "StarReal/15/revisions/fixed_world_yellow_depth_v5/case_15_fixed_world_yellow_depth_v5.tar",
+      "archive_LFS_SHA256": "a384ce32a142e2f66dd36ffff8c71b3636df0a477fff92c155c23629cb3433b7",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "532e72717ca90b2f0a5c7abedde1a47d2159ddb2c8f3e124b64991b73cbd39ae",
+        "role": "observed inputA, never edited or targetB GT"
+      },
+      "source_camera_A_B_SHA256": "85aabff6e37b3e92c2717b342fdfbc5a28536eeab73963b3fec4045fde4b1482",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "16",
+      "case_id": "rv_pexels4_14904939_3840_2160_25fps",
+      "HF_archive": "StarReal/16/revisions/fixed_world_yellow_depth_v5/case_16_fixed_world_yellow_depth_v5.tar",
+      "archive_LFS_SHA256": "33c7be7958276987a3ac82cd0b944b9230a796863d1040f030dada5af76d7ba7",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "367c314f965fb055d80ee54ef110d675ff04c648fd6c393f8780c4507b1b3667",
+        "role": "observed inputA, never edited or targetB GT"
+      },
+      "source_camera_A_B_SHA256": "94a7836b06a844bca45e24e77e8f1101e0d23e1991ae29a75290dfb8e69ddd96",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "17",
+      "case_id": "rv_pexels4_854693-hd_1920_1080_30fps",
+      "HF_archive": "StarReal/17/revisions/fixed_world_yellow_depth_v5/case_17_fixed_world_yellow_depth_v5.tar",
+      "archive_LFS_SHA256": "f56f6bf1abecec20a2075984ef3ce2d4d70c7796b704324e3e7262ee10a5e988",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "2f636d34d1a1487cb6d5451678b416f4ccf48bf01e0e0e5791b15190308a08d9",
+        "role": "observed inputA, not edited targetB"
+      },
+      "source_camera_A_B_SHA256": "ccf769e58eb0b753b371f155663b8e6b809736c2d8e39696eddbc4d91748f790",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "18",
+      "case_id": "rv_pexels3_7164569-hd_1920_1080_30fps",
+      "HF_archive": "StarReal/18/revisions/fixed_world_yellow_depth_v5/case_18_fixed_world_yellow_depth_v5.tar",
+      "archive_LFS_SHA256": "c54e7dd977876d40bab56c8969707999e54bcdea1cfb6e27d849487a088d5f7a",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "dfdc9801e1c7235b7252061fa7477b1d98c3ad305336fa82be774545ffce8340",
+        "role": "observed inputA, not edited targetB"
+      },
+      "source_camera_A_B_SHA256": "17a0d038a4c8792cd029aa2ee143749a44e6265269359d54f79172b6d3267fbc",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "19",
+      "case_id": "rv_pexels4_7062984-hd_1920_1080_24fps",
+      "HF_archive": "StarReal/19/revisions/fixed_world_yellow_depth_v5/case_19_fixed_world_yellow_depth_v5.tar",
+      "archive_LFS_SHA256": "9fa2a82dce039eff6164fa71bdd7161f7362731e4094615f2772ea83434bd288",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "e604d20a8e0a1266f6e45174d5d23484b1eb6fe3d65cbeba86e3dc8c3a54a1fa",
+        "role": "observed inputA, not edited targetB"
+      },
+      "source_camera_A_B_SHA256": "67743481bccbb8e130d6eabd822b81a083e713bec96565afdcd9363b88375db3",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "20",
+      "case_id": "rv_post_1_6263195",
+      "HF_archive": "StarReal/20/revisions/fixed_world_yellow_depth_v5/case_20_fixed_world_yellow_depth_v5.tar",
+      "archive_LFS_SHA256": "1a3fc1c0b69e9ecd9d3713ccab9859d590d66525462c290d4d1ed0aaf4a3648a",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "fe60b6b2947725c39efbc0b04e75a0ae51b60d0feca7ccb86cddd10a427de39c",
+        "role": "observed inputA, not edited targetB"
+      },
+      "source_camera_A_B_SHA256": "a53ceb5b75a865bda9a0321756cb0b9a2e41765170758512f5be39d470eed01d",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "21",
+      "case_id": "rv_post_1_637",
+      "HF_archive": "StarReal/21/revisions/fixed_world_yellow_depth_v5/case_21_fixed_world_yellow_depth_v5.tar",
+      "archive_LFS_SHA256": "7fe1d87600ea92bd26e0360d70e858e2ca1bd3bf0d701baa882781c547e63a30",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "086712709cb2bbe8e97fe833982535b0e73e551190cb8953c18255f31e25c67a",
+        "role": "observed inputA, not edited targetB"
+      },
+      "source_camera_A_B_SHA256": "cb92ba96a47e6ecccd3fa8924b34922107f5f375fbb7295703625afc1baa0d3d",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "22",
+      "case_id": "rv_pexels1_6386904-hd_1920_1080_25fps",
+      "HF_archive": "StarReal/22/revisions/fixed_world_yellow_depth_v5/case_22_fixed_world_yellow_depth_v5.tar",
+      "archive_LFS_SHA256": "ed1d39d608c51e093d5c42a6146268c80252ca75b8b979b56a1e1d695f6ed44a",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "0c29046d1059314bb5c10e45dd96cc8882387270b857350629390e639c4dfc99",
+        "role": "observed inputA, not edited targetB"
+      },
+      "source_camera_A_B_SHA256": "23ee0f9197938ec8cb8dd05ada484f18342a226266ed2ac751d0695162f4c325",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "23",
+      "case_id": "rv_pexels3_9080631-uhd_4096_2160_25fps",
+      "HF_archive": "StarReal/23/revisions/fixed_world_yellow_depth_v5/case_23_fixed_world_yellow_depth_v5.tar",
+      "archive_LFS_SHA256": "3af4c139d627944fc5834f065855f8bb23be62641d995ec7fb6abb72f7032361",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "c177875293fe85a22d4d88b876a263d61c6f48270921b57e7e684fdd7afdfabf",
+        "role": "observed inputA, not edited targetB"
+      },
+      "source_camera_A_B_SHA256": "40880be73f1af0a469594cc6228881b66ddfd24b5466fc67d7871b387c58d442",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "27",
+      "case_id": "rv_pexels2_14888447_3840_2160_50fps",
+      "HF_archive": "StarReal/27/revisions/fixed_world_yellow_depth_v5/case_27_fixed_world_yellow_depth_v5.tar",
+      "archive_LFS_SHA256": "4ad24091645b576061f8928b848e87db126a01e001b2262978689a89db1c6eb0",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "3f82235293f27238240b6fcb45d0f3103af29c0aeab79a5f181f37fdf90998af",
+        "role": "observed inputA, not edited targetB"
+      },
+      "source_camera_A_B_SHA256": "5ab223b583dc49f120f7c45506636c7f40708667896515f558cb3ea0b877ecb3",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "28",
+      "case_id": "rv_non_limbertian_8479096-hd_1920_1080_24f",
+      "HF_archive": "StarReal/28/revisions/fixed_world_yellow_depth_v5/case_28_fixed_world_yellow_depth_v5.tar",
+      "archive_LFS_SHA256": "ad71a11c7724cef211e5f72a63bd5a5192e5eb8be049dc24164402af88a1cd74",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "7030c2f1673726f91e8e803e5906089e11b0fed63ee1205829e3e13514cd8e9d",
+        "role": "observed inputA, not edited targetB"
+      },
+      "source_camera_A_B_SHA256": "022ca0d7196c5b95f2a833d9b9bb16c7d6a0a44c9aa82cf33dde358cdbb4b4d9",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "31",
+      "case_id": "rv_pexels2_14034896-hd_1920_1080_24",
+      "HF_archive": "StarReal/31/revisions/fixed_world_yellow_depth_v5/case_31_fixed_world_yellow_depth_v5.tar",
+      "archive_LFS_SHA256": "626b075965f92e4e7f0ab50447581ed03f331c4deefdf9ec371a4453f7ccdbde",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "aa3121d6813f813a1b07d576b0e51718cb4292daffc769e644f9f904f63f0554",
+        "role": "observed inputA, not edited targetB"
+      },
+      "source_camera_A_B_SHA256": "910f5d30cb1ea90f2c2b11a2856c4116e172b42e0fb3737e1e67a3ff35ef8d32",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "33",
+      "case_id": "rv_pexels3_8865535-hd_1920_1080_30fps",
+      "HF_archive": "StarReal/33/revisions/fixed_world_yellow_depth_v5/case_33_fixed_world_yellow_depth_v5.tar",
+      "archive_LFS_SHA256": "564750ed299119b5fe70dc56b19f8344bac3d6e7c35f41d1bda265ef7ac41a49",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "f5ab023635d431dbc727bdfb3360b0b2251e5db6a26c17109007edb818331265",
+        "role": "observed inputA, not edited targetB"
+      },
+      "source_camera_A_B_SHA256": "2def136ec816a5146701ab60fca910c4fc8ab57ae4ac412aee1251473265cbf2",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "34",
+      "case_id": "rv_pexels4_14574360_3840_2160_60fps",
+      "HF_archive": "StarReal/34/revisions/fixed_world_yellow_depth_v5/case_34_fixed_world_yellow_depth_v5.tar",
+      "archive_LFS_SHA256": "3a2c10b202196501c80e06150830eb58f1c36c5e32da09f83233b11dbd402489",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "ecfd0a7e7247d176e9b1118618cce3d3989ca727e5144e8e7b69d44ee4183ea2",
+        "role": "observed inputA, not edited targetB"
+      },
+      "source_camera_A_B_SHA256": "da095ff66da4f8498c5f6930a36770e9ddb36011042a8a46e2fce7d15ca37e63",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "35",
+      "case_id": "rv_pexels4_14574400_3840_2160_60fps",
+      "HF_archive": "StarReal/35/revisions/fixed_world_yellow_depth_v5/case_35_fixed_world_yellow_depth_v5.tar",
+      "archive_LFS_SHA256": "5d79c5cd9cb11875387801b5f49fd29167b48bd7dce54b785cd76f9ba5b92ae9",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "81198cc1d1c3b42cfb5a8be0680222d79068d316a012ee5cc65d31e7951d1a99",
+        "role": "observed inputA, not edited targetB"
+      },
+      "source_camera_A_B_SHA256": "1dfe4d2cb566c042e438f20a04620f1cc7e2837c4c793276936e48fbea0131eb",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "36",
+      "case_id": "rv_pexels4_7820474-hd_1920_1080_25fps",
+      "HF_archive": "StarReal/36/revisions/fixed_world_yellow_depth_v5/case_36_fixed_world_yellow_depth_v5.tar",
+      "archive_LFS_SHA256": "c71f38b80e6ba5c4e9020e9d9321c7fcb83028c72b4ab872e8e3fcf744b99158",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "a7d08f7db614a48812e261e12b7c7e9196082aff2466c6f1197724e8fbcda2dd",
+        "role": "observed inputA, not edited targetB"
+      },
+      "source_camera_A_B_SHA256": "961c35b9d0f999b2ddd1d1340354953465b0a3aa05b815ac0b12bfd979adfce0",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "37",
+      "case_id": "rv_post_2_6799108-hd_1920_1080_24fps",
+      "HF_archive": "StarReal/37/revisions/fixed_world_yellow_depth_v5/case_37_fixed_world_yellow_depth_v5.tar",
+      "archive_LFS_SHA256": "396b025a0ae436cc6bca863f8a59ffc88b667290e0e260ad03caba3ccd5d56b8",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "40e607dbac2b733e824922a32474393fc4f671529b89d75a48c981178fe955dc",
+        "role": "observed inputA, not edited targetB"
+      },
+      "source_camera_A_B_SHA256": "937bc70460ae65836f1d5ab5151c16a7deb617a8825189c2f885d09f6710c851",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "38",
+      "case_id": "rv_to_siming_v2_10302757-uhd_4096_2160_25fps",
+      "HF_archive": "StarReal/38/revisions/fixed_world_yellow_depth_v5/case_38_fixed_world_yellow_depth_v5.tar",
+      "archive_LFS_SHA256": "51bdb08565cd22ced9ce1b80f1a3a82ee925e8a551bf4754d0d4082f470106d9",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "21711a82c3a133dac568a05c8b3275012b59130914ad0b683b85d3e0a098e204",
+        "role": "observed inputA, not edited targetB"
+      },
+      "source_camera_A_B_SHA256": "2a739b9f2a87b5b5e553f769ffd20a3fd0cf5561f40c0db84f20373e32dfd0f2",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "53",
+      "case_id": "rv_fresh_rv_pexels1_4034136-uhd_4096_2160_25",
+      "HF_archive": "StarReal/53/revisions/fixed_world_yellow_depth_v5/case_53_fixed_world_yellow_depth_v5.tar",
+      "archive_LFS_SHA256": "74db11f55d204e28f38adc4fcdc9f8a03f315aad88dd235292872966ba80eb73",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "86d817ec8ff16654b5b490c763cc18ec042618c7811e1a8757011105fd873961",
+        "role": "observed inputA, not edited targetB"
+      },
+      "source_camera_A_B_SHA256": "0dd5daeecf6fbecca48784ed85312514782d0049634dce68e4b5277dd9bc2af6",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "56",
+      "case_id": "rv_pexels1_6279716-uhd_3840_2160_24",
+      "HF_archive": "StarReal/56/revisions/fixed_world_yellow_depth_v5/case_56_fixed_world_yellow_depth_v5.tar",
+      "archive_LFS_SHA256": "b5f108e035fa8a0eb58858b8c38296f00513443b8078a85a7cd383239e2d09c7",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "3fa23b454bbc97db0006c0072040c2a2a2376266a2e5538d6b162255f76a160e",
+        "role": "observed inputA, not edited targetB"
+      },
+      "source_camera_A_B_SHA256": "8eb2de6194af56e8b064330790490bdf37d0ba8a480308c0a38515b98544d03f",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "58",
+      "case_id": "rv_pexels1_6598397-uhd_3840_2160_30",
+      "HF_archive": "StarReal/58/revisions/fixed_world_yellow_depth_v5/case_58_fixed_world_yellow_depth_v5.tar",
+      "archive_LFS_SHA256": "5a4644f08de88ace44cc5cdaf9f83bfaf2f2e4f91e0df1a49c507da67aac508f",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "b811ef2d33dc26090a5a23db655ed5c20169ca89212085ef0b6ad340aee875a1",
+        "role": "observed inputA, not edited targetB"
+      },
+      "source_camera_A_B_SHA256": "7a333012b899bf12f4ee3bbc32b95cf0eb8242595101da844c485d924c1db3c1",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "64",
+      "case_id": "rv_pexels2_6789221-uhd_4096_2160_25",
+      "HF_archive": "StarReal/64/revisions/fixed_world_yellow_depth_v5/case_64_fixed_world_yellow_depth_v5.tar",
+      "archive_LFS_SHA256": "e79fbe68272c703e667aa03d36d95f081af7ab3f6d946b53adac2e27552cce7e",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "437e7a9c661fb378dbf9efef52b3a2a44d2b8cf006e561543d6bb70feeeac12a",
+        "role": "observed inputA, not edited targetB"
+      },
+      "source_camera_A_B_SHA256": "d396329593ebd10d31969caa32d73e952feb9f838738ce279bd24360d998aa44",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "66",
+      "case_id": "rv_fresh_rv_to_siming_v3_7322211-uhd_4096_2160_25",
+      "HF_archive": "StarReal/66/revisions/fixed_world_yellow_depth_v5/case_66_fixed_world_yellow_depth_v5.tar",
+      "archive_LFS_SHA256": "df45e4c60115a8523f4088fcc2fa94c9de588350d815036e0ba1df651056017c",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "2808afaab97c844bd09d29a169cc4f717c1587746b0c28bf5e0dc8f7e9281b1e",
+        "role": "observed inputA, not edited targetB"
+      },
+      "source_camera_A_B_SHA256": "d0e086384e2105e3718b98e168cd57b6726e7b271ecdc4fe89449fd8ac031f58",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "69",
+      "case_id": "rv_pexels2_9080635-uhd_4096_2160_25",
+      "HF_archive": "StarReal/69/revisions/fixed_world_yellow_depth_v5_packaging_v2/case_69_fixed_world_yellow_depth_v5_packaging_v2.tar",
+      "archive_LFS_SHA256": "d2c531e2cf6c8a9294b58be7e8b1b0cb9fe78d449f0cee922eec1c35e13b199f",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "637472f89d484f86de419b9dbeaba131a903e1434b32994937aa53ad0044ba2e",
+        "role": "observed inputA, not edited targetB"
+      },
+      "source_camera_A_B_SHA256": "ab3e350d39fbd54340b58f4b44c54bb058ad2af7649cd4053a8883a9dc02c1b8",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "70",
+      "case_id": "rv_pexels2_9208689-uhd_4096_2160_25",
+      "HF_archive": "StarReal/70/revisions/fixed_world_yellow_depth_v6/case_70_fixed_world_yellow_depth_v6.tar",
+      "archive_LFS_SHA256": "266f553b2b3a6a3203808bc35087296d54283b9b2e749cabb00d6f6ae1f6d41b",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "10fc601ad9eb8f9a056e39cba7c4da39116259e336d52b2fdbd9cce32f742c70",
+        "role": "observed inputA, not edited targetB"
+      },
+      "source_camera_A_B_SHA256": "8222bb2425770f73baf4ebb26f4be0bd10c93fb9229c32c4cd91a8adc0ca2edf",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "71",
+      "case_id": "rv_fresh_rv_pexels3_10387910-uhd_4096_2160_2",
+      "HF_archive": "StarReal/71/revisions/fixed_world_yellow_depth_v5/case_71_fixed_world_yellow_depth_v5.tar",
+      "archive_LFS_SHA256": "c448e13b8f0fd2d047b59ac69592640847c18c339e933298ad760915f9a7a0e2",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "cb5195805a6cca3d16b78a68dfb261b175950b000b5315d23294e59691104e18",
+        "role": "observed inputA, not edited targetB"
+      },
+      "source_camera_A_B_SHA256": "fd0106f5b2c1bcbd2f64a449154ae44cfa666827fcdb3c62ca14122866e20e9b",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "72",
+      "case_id": "rv_pexels3_19919754-uhd_3840_2160_2",
+      "HF_archive": "StarReal/72/revisions/fixed_world_yellow_depth_v6/case_72_fixed_world_yellow_depth_v6.tar",
+      "archive_LFS_SHA256": "0c32460588c5a817ff8833ac83522de2ef4d120b533da7dc71c412d763742218",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "a529ccccd6fb741be0755bada97fb463689d91655000a2dafa1a0dbca958336f",
+        "role": "observed inputA, not edited targetB"
+      },
+      "source_camera_A_B_SHA256": "bdd577917680a6ed0caa58cf57de0ffddd01ce09db0caea37bd1b1c3728d15df",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "74",
+      "case_id": "rv_pexels3_6830885-uhd_4096_2160_25",
+      "HF_archive": "StarReal/74/revisions/fixed_world_yellow_depth_v5/case_74_fixed_world_yellow_depth_v5.tar",
+      "archive_LFS_SHA256": "3d7855787db4e398ce0901d949c7b2cfbf7e2bce0877b2cff5154230bf02692d",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "2f867c161488ea139bd681c13277617d6f3dfc22a78cf022b06297449c600731",
+        "role": "observed inputA, not edited targetB"
+      },
+      "source_camera_A_B_SHA256": "d1641af1a05dc676127249115492350dad66970e1e9e17e8b61ae2da2b7bf911",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "80",
+      "case_id": "rv_pexels3_8375433-uhd_4096_2160_25",
+      "HF_archive": "StarReal/80/revisions/fixed_world_yellow_depth_v5/case_80_fixed_world_yellow_depth_v5.tar",
+      "archive_LFS_SHA256": "08cc949003b641b90ae8a493400b940f8899621bb63afa31776d68d1b5f87192",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "46ec9e552270fef413468eb05ba15fdb3267ce6d81d74a14feff3adc5e59fdc0",
+        "role": "observed inputA, not edited targetB"
+      },
+      "source_camera_A_B_SHA256": "d6d482d4b732896f963fff4466be2b8ab4626a9284ad378512922bf285d4266c",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "82",
+      "case_id": "rv_pexels3_9884387-uhd_4096_2160_25",
+      "HF_archive": "StarReal/82/revisions/fixed_world_yellow_depth_v5/case_82_fixed_world_yellow_depth_v5.tar",
+      "archive_LFS_SHA256": "8ce597bb37bd333d7c5ad033cb594e4b34d816ef0f084441f7079923aa962025",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "6053261419d6080c8f084961661603102bd0463322877dabb3ce4d38d28a58ca",
+        "role": "observed inputA, not edited targetB"
+      },
+      "source_camera_A_B_SHA256": "9188ec404910f6a49965cc9266c1cf4687f15c253c5b2dee594505b5fbea0ef1",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "83",
+      "case_id": "rv_fresh_rv_pexels4_10387413-uhd_4096_2160_2",
+      "HF_archive": "StarReal/83/revisions/fixed_world_yellow_depth_v5/case_83_fixed_world_yellow_depth_v5.tar",
+      "archive_LFS_SHA256": "2b3789c0037c93cf61196343cc846c01f043d21941c91cab1732c4f6c886ee9b",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "93a2f7b9d7b5585f92f554658cc403cc3390eca22cbd4dc1f1e90dcfdff3bc65",
+        "role": "observed inputA, not edited targetB"
+      },
+      "source_camera_A_B_SHA256": "c4fab761501900c53d4eb702e170b09df76463ce465eefe351dfd436bf0d057a",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "84",
+      "case_id": "rv_fresh_rv_pexels4_13596340_1920_1080_30fps",
+      "HF_archive": "StarReal/84/revisions/fixed_world_yellow_depth_v5/case_84_fixed_world_yellow_depth_v5.tar",
+      "archive_LFS_SHA256": "62313f7bc71f56a0827dcf538738229cc38ebc869002d68d711a743143231bab",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "64674b97ebb24e4e1b2dc2e51922be6b76ce0bc770b1b2b3b8f1db03764193b4",
+        "role": "observed inputA, not edited targetB"
+      },
+      "source_camera_A_B_SHA256": "a9d69a8e5283ee13f6ab5469ae8eada69c280effb1fcab68a2e4801c085096fb",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "92",
+      "case_id": "rv_post_1_147",
+      "HF_archive": "StarReal/92/revisions/fixed_world_yellow_depth_v5/case_92_fixed_world_yellow_depth_v5.tar",
+      "archive_LFS_SHA256": "8451e264e999a190ace445d1c8d36d5dca3e42b6781e00353cec1fa725eca439",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "885abab90c6ac08869cacfcab556768782f63af413e1599322153ee8e99c9e8c",
+        "role": "observed inputA, not edited targetB"
+      },
+      "source_camera_A_B_SHA256": "0d785d2dcbdcf1fdcfa504871d6f45bda2b56311edbb115be62e917a7ee4d335",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "106",
+      "case_id": "rv_fresh_rv_to_siming_v3_7322211-uhd_4096_2160_25",
+      "HF_archive": "StarReal/106/revisions/fixed_world_yellow_depth_v5/case_106_fixed_world_yellow_depth_v5.tar",
+      "archive_LFS_SHA256": "03ff42c3a1f35b71579a1be85b0c0de9eb1b89770e1d27b8935274ca562e0d2d",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "862c5774e920ba712823815adc4434da1c45ab0a3dab6b19a2653e4b2e9e42ae",
+        "role": "observed inputA, not edited targetB"
+      },
+      "source_camera_A_B_SHA256": "e1ef2362dfab1051b09fdc2211a692e7fc680f231e5dd3a3e54b48ea354ca359",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "108",
+      "case_id": "rv_extra_case01_10302763",
+      "HF_archive": "StarReal/108/revisions/fixed_world_yellow_depth_v5/case_108_fixed_world_yellow_depth_v5.tar",
+      "archive_LFS_SHA256": "0e4071c722ae3e9c3052ca3d940902cb6099befde737182b8fa9fad276525d02",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "e52306081dd74a70466798838cf5194ae530edffabda2b3e383eb49631f660a8",
+        "role": "observed inputA, not edited targetB"
+      },
+      "source_camera_A_B_SHA256": "0c3287f36a8f122b3c9c9a56f0ed56c0023155705fa5ed28b019ce6f1cd82761",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "109",
+      "case_id": "rv_extra_case02_6374204",
+      "HF_archive": "StarReal/109/revisions/fixed_world_yellow_depth_v5/case_109_fixed_world_yellow_depth_v5.tar",
+      "archive_LFS_SHA256": "7dc8a8e888ad07118a1cebc6c74a2c47abc6423a8a626f8f7614e849a3e01cb7",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "c122bf9628825d4620dd27f5bcdcf4d72922aa9d5b8e1d57d27022e7175f5230",
+        "role": "observed inputA, not edited targetB"
+      },
+      "source_camera_A_B_SHA256": "17dfebe276dc18bcb0673eb5904efcd4c9147d8ec498561fd152a449c5a5c437",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "111",
+      "case_id": "rv_extra_case04_7505473",
+      "HF_archive": "StarReal/111/revisions/fixed_world_yellow_depth_v5/case_111_fixed_world_yellow_depth_v5.tar",
+      "archive_LFS_SHA256": "6d41f40a71be156a491efe2980f2040121f5afb4103deeaa170b4bb320d5e808",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "a4cb4b093ce3ef8ba94fd19866e54bc23a198cd7608321b94b191b3983a5ff0e",
+        "role": "observed inputA, not edited targetB"
+      },
+      "source_camera_A_B_SHA256": "be2f5849541bfce6ef1fba23c6db6d03efa0ad1563fed6dccb18062560392eeb",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "6374204",
+      "case_id": "extra_case02_6374204",
+      "HF_archive": "StarReal/6374204/revisions/fixed_world_yellow_depth_v5/case_6374204_fixed_world_yellow_depth_v5.tar",
+      "archive_LFS_SHA256": "0b8c2daa460ac87f0af41b59079d61501cee752f22cc10bb11940186366d4636",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "c122bf9628825d4620dd27f5bcdcf4d72922aa9d5b8e1d57d27022e7175f5230",
+        "role": "observed inputA, not edited targetB"
+      },
+      "source_camera_A_B_SHA256": "17dfebe276dc18bcb0673eb5904efcd4c9147d8ec498561fd152a449c5a5c437",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "7505429",
+      "case_id": "rv_extra_case03_7505429",
+      "HF_archive": "StarReal/7505429/revisions/fixed_world_yellow_depth_v5/case_7505429_fixed_world_yellow_depth_v5.tar",
+      "archive_LFS_SHA256": "1884b3bd610850b9ab4c689f510490ad2322011737b4b5b88f505ce9fbfb386f",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "edc658b2312ef24f2652a4307908984ca336091795c77a95e3064fd5d2f8f14a",
+        "role": "observed inputA, not edited targetB"
+      },
+      "source_camera_A_B_SHA256": "eccaacd97fb2950b6622b181f50cdfcefcd4060f59573edd106197718d4bc0eb",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "7505473",
+      "case_id": "extra_case04_7505473",
+      "HF_archive": "StarReal/7505473/revisions/fixed_world_yellow_depth_v5/case_7505473_fixed_world_yellow_depth_v5.tar",
+      "archive_LFS_SHA256": "99de406d9eeec4fe7f7112a7f6e4f8e5f0645fce67adf4ae027db65336f97404",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "a4cb4b093ce3ef8ba94fd19866e54bc23a198cd7608321b94b191b3983a5ff0e",
+        "role": "observed inputA, not edited targetB"
+      },
+      "source_camera_A_B_SHA256": "be2f5849541bfce6ef1fba23c6db6d03efa0ad1563fed6dccb18062560392eeb",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    },
+    {
+      "case": "10302763",
+      "case_id": "extra_case01_10302763",
+      "HF_archive": "StarReal/10302763/revisions/fixed_world_yellow_depth_v5/case_10302763_fixed_world_yellow_depth_v5.tar",
+      "archive_LFS_SHA256": "aef9d4461c2f3856cbce88d7fa0523a93a7c234d733c8e7d46b03e58f8905adf",
+      "source_RGB": {
+        "path": "media/source_A.mkv",
+        "sha256": "e52306081dd74a70466798838cf5194ae530edffabda2b3e383eb49631f660a8",
+        "role": "observed inputA, not edited targetB"
+      },
+      "source_camera_A_B_SHA256": "0c3287f36a8f122b3c9c9a56f0ed56c0023155705fa5ed28b019ce6f1cd82761",
+      "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f"
+    }
+  ],
+  "training_GT_available": false
+}

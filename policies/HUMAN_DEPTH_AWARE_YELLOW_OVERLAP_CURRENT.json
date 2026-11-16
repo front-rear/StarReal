@@ -1,0 +1,16 @@
+{
+  "at": "2026-11-13T04:57:57.899312+00:00",
+  "human_steering": "The visible projected overlap of source/red and target/blue markers must remain yellow, with fixed-world PCF/grid bidirectional depth occlusion retained.",
+  "base_approved_copy": "provenance/APPROVED_20261112_depth_fusion_UNMODIFIED.py",
+  "base_approved_SHA256": "fb7db166b5be052ee65565bff773bcbd7086a9ad76068b15278e5f1b1ca2415b",
+  "renderer_copy": "code/depth_fusion_fixed_world_yellow_overlap_v2.py",
+  "renderer_SHA256": "a6c6c71bb8ce48f07c0e04e1fbfedd1af3d51ddf5a707f01de6c08de6c231f3f",
+  "required_mode": "shared_metric_depth_opaque_yellow_overlap_v2",
+  "yellow_rule": "OR independently PCF-visible P(1) and Q(2) ray masks; intersection3 is yellow, including separated world volumes; a lattice in front remains visible",
+  "opaque_box_faces": true,
+  "PCF_background_blend": false,
+  "fixed_world_and_depth_kernel_unchanged": true,
+  "source_RGB_geometry_camera_mask_and_Original_controls_unchanged": true,
+  "old_physical_volume_yellow_rule_superseded": true,
+  "publication_paused_until_specific_revision_actual_QA": true
+}

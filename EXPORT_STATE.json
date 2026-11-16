@@ -1,0 +1,12 @@
+{
+  "state": "validated_code_export_for_private_GitHub_repository",
+  "path": "/mnt/atlas/fangrui/LampEdit/native_project_production_20261027_v1/results/new50_sig_256_v1/root_coordinator/StarReal/code_exports/StarReal_20261116_v1",
+  "source_files": 585,
+  "source_bytes": 4043660,
+  "at": "2026-11-16T13:13:21.340847+00:00",
+  "repository": "https://github.com/front-rear/StarReal",
+  "private": true,
+  "production_mathematics_unchanged": true,
+  "validation": "validation/EXPORT_VALIDATION.json",
+  "model_inference_and_AI_authorship_documented": "docs/AI_USAGE.md"
+}

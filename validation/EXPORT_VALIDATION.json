@@ -1,0 +1,64 @@
+{
+  "state": "PASS",
+  "GPU_used": false,
+  "CPU_reference_parity": {
+    "status": "reference_exact_on_analytic_and_random_checks",
+    "ray_cases": 4,
+    "rays_each": 16000,
+    "full_RGB_and_all_depth_aux_arrays_exact": true,
+    "no_parameter_changes": true,
+    "CPU_threads": 4,
+    "benchmark_seconds_16000_rays": 0.009625434875488281
+  },
+  "production_case_component_test": {
+    "case": "83",
+    "frame": 24,
+    "width": 1280,
+    "height": 704,
+    "AA": 2,
+    "variant": "replace_orig_7095c535",
+    "PCF_pixels": [
+      {
+        "role": "old_joint",
+        "production_PNG_SHA256": "6a2b5fbc96900962e607babe4aea8e44a7ed80a047f82f2528bd7b4fd0845354",
+        "differing_pixels": 0
+      },
+      {
+        "role": "new_joint",
+        "production_PNG_SHA256": "203d4b511dc36a020c3d9b1d015941cee1d58f18745d43bd32f14a45d5f02256",
+        "differing_pixels": 0
+      }
+    ],
+    "fields_variant": "move",
+    "fields": [
+      {
+        "family": "lamp_silhouette",
+        "production_matching_arrays": 20,
+        "source_support_pixels": 5592
+      },
+      {
+        "family": "bbox_silhouette",
+        "production_matching_arrays": 20,
+        "source_support_pixels": 24568
+      }
+    ],
+    "lattice_in_front_subrays": 3685,
+    "box_in_front_subrays": 103430,
+    "full_yellow_pixels": 14404,
+    "yellow_R_equals_G_B0": true,
+    "Remove_negative_raw_gamma_and_source_solid_Color_checked": true,
+    "world_geometry_and_camera_inputs_changed": false
+  },
+  "no_new_quality_acceptance": true,
+  "at": "2026-11-16T13:08:54.580027+00:00",
+  "elapsed_seconds": 10.668914794921875,
+  "wheel_build_and_isolated_install": {
+    "status": "PASS",
+    "wheel": "starreal_pipeline-0.1.0-py3-none-any.whl",
+    "SHA256": "7782eca41ee1872c9538f587ac378140d71de300ecfd37a49be58afc15f3da10",
+    "packaged_frozen_files_exact": 11,
+    "editable_checkout_not_required": true,
+    "dependency_variant": "opencv-python-headless==4.11.0.86, matching actual QH CPU OpenCV",
+    "metadata_only_revision": "identical installed module/packaged frozen bytes; headless dependency metadata additionally checked"
+  }
+}

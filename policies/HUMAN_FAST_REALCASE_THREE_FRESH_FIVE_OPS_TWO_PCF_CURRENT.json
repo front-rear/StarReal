@@ -1,0 +1,35 @@
+{
+  "policy": "HUMAN_FAST_REALCASE_3_FRESH_LAMPS_5_OPS_TWO_PCF_V1",
+  "at": "2026-11-13T02:30:50.993907+00:00",
+  "source": "Latest direct human instruction: repaircase7/other placements; eachcase three fresh unused lamps, one insert/one replace/one move_replace; both ordinary and depth-aware full49 standalone videos; speed up.",
+  "required_operations": [
+    "insert",
+    "remove",
+    "move",
+    "replace",
+    "move_replace"
+  ],
+  "production_variant_count": 5,
+  "distinct_new_raw_library_assets": 3,
+  "assignment": "insert=newA,replace=newB,move_replace=newC; no full operation-by-every-lamp Cartesian expansion",
+  "new_asset_identity": "Different actual raw GLB SHA; not previous published models, recolor/intensity/alias do not count.",
+  "resolution": [
+    1280,
+    704
+  ],
+  "frames": 49,
+  "fps": 10,
+  "PCF_deliverables": [
+    "regular_pcf_bbox/<operation>.mp4",
+    "depth_aware_pcf_bbox/<operation>.mp4",
+    "comparison/<operation>_regular_vs_depth_aware.mp4"
+  ],
+  "ordinary": "Actual existing legacy PCF+bbox compositor on corrected world geometry and identical cameras.",
+  "depth_aware": "Fixed shared world coordinates, actual K/poses; PCF in front occludes bbox, bbox in front occludes PCF, stable world position under camera motion.",
+  "historical_originals": "Preserve all old source/video/geometry/archives/receipts. Existing completed extra variants remain historical, not more new groups.",
+  "placement": "Empty suitable physical support with room for complete lamp footprint; avoid book/paper/keyboard and person/hand working sweep where clear table is available. Explicit human red-circle case7 priority. Original source P is retained when good; source transient occlusion is distinct from deliberately bad new target selection.",
+  "quality": "Actually view full49 source/placement/conditions/PCF; both families color+signed intensity; Original relative target-source gamma/1.1 and alpha/.9 once unchanged; no lower resolution or fewer frames for speed.",
+  "current_case7": "Exact published v3 held by human target-location rejection; repair newrevision count0, currentqualified excludes until fixed.",
+  "performance": "Bounded independent CPU frame processes and parallel encoders with measured25-core cgroup cap; same pixel renderer/Original settings. Single compute owner and unique HF writer. No newGPU or cancellation of healthy work.",
+  "all_scope": "All59 original numeric realcase IDs and98 source versions; goal remains active, no scope reduction"
+}

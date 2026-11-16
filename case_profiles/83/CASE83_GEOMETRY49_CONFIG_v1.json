@@ -1,0 +1,57 @@
+{
+  "case": "83",
+  "geometry_sources": {
+    "source": {
+      "path": "/mnt/atlas/fangrui/LampEdit/native_project_production_20261027_v1/results/new50_sig_256_v1/root_coordinator/StarReal/component_cache/83/source_observed_fixture_rigid_clear_wall_pilot3_v1/geometry.npz",
+      "vertices_key": "source_vertices",
+      "faces_key": "source_faces",
+      "rotation_key": "source_rotation"
+    },
+    "move": {
+      "path": "/mnt/atlas/fangrui/LampEdit/native_project_production_20261027_v1/results/new50_sig_256_v1/root_coordinator/StarReal/component_cache/83/source_observed_fixture_rigid_clear_wall_pilot3_v1/geometry.npz",
+      "vertices_key": "move_vertices",
+      "faces_key": "move_faces",
+      "rotation_key": "source_rotation"
+    },
+    "insert_orig_66663ad5": {
+      "path": "/mnt/atlas/fangrui/LampEdit/native_project_production_20261027_v1/results/new50_sig_256_v1/root_coordinator/StarReal/component_cache/83/three_whole_wall_targets_pilot3_v1/insert_orig_66663ad5/geometry.npz",
+      "vertices_key": "vertices",
+      "faces_key": "faces",
+      "rotation_key": "rotation"
+    },
+    "replace_orig_7095c535": {
+      "path": "/mnt/atlas/fangrui/LampEdit/native_project_production_20261027_v1/results/new50_sig_256_v1/root_coordinator/StarReal/component_cache/83/three_whole_wall_targets_pilot3_v1/replace_orig_7095c535/geometry.npz",
+      "vertices_key": "vertices",
+      "faces_key": "faces",
+      "rotation_key": "rotation"
+    },
+    "move_replace_orig_65cbbefb": {
+      "path": "/mnt/atlas/fangrui/LampEdit/native_project_production_20261027_v1/results/new50_sig_256_v1/root_coordinator/StarReal/component_cache/83/three_whole_wall_targets_pilot3_v1/move_replace_orig_65cbbefb/geometry.npz",
+      "vertices_key": "vertices",
+      "faces_key": "faces",
+      "rotation_key": "rotation"
+    }
+  },
+  "actual_pilot_review": "/tmp/starreal_uid1007_case83_cpu_v2/reviews/CASE83_COMBINED15_PILOT_GEOMETRY_BINDINGS_REVIEW_v1.json",
+  "actual_pilot_review_SHA256": "665bc72d31ac612079f9c32ccf780ac668d6e359a15d94b36a4a4f4ad56d661a",
+  "source_hidden_geometry_policy": {
+    "front_and_thickness": "coherent monocular shell estimate, actual source silhouette retained",
+    "back": "estimated only, not measured geometry",
+    "occluded_cord": "not fabricated, observed foreground at actual hair occlusion only",
+    "mask": "Original SAM shade plus separately recorded visible RGB annotations; oldSAM preserved",
+    "support": "actual observed wall plate on same clear continuous wall; Native-derived relative plane, not metric truth"
+  },
+  "component_only": false,
+  "assets_proof": "/mnt/atlas/fangrui/LampEdit/native_project_production_20261027_v1/results/new50_sig_256_v1/root_coordinator/StarReal/inputs/case83_three_fresh_whole_models_v1/ORIGINAL_LIBRARY_RAW_CANDIDATES_PROOF.json",
+  "source_lower_completion_estimated": false,
+  "source_shade_completion_estimated": false,
+  "source_original_support_contact_observed": true,
+  "source_base_contact_visual_reviewed": true,
+  "reviewed_operation_references_A24": {
+    "remove": "/mnt/atlas/fangrui/LampEdit/native_project_production_20261027_v1/results/new50_sig_256_v1/root_coordinator/StarReal/component_cache/83/source_observed_fixture_rigid_clear_wall_pilot3_v1/source_A24_whole_vs_visibility.jpg",
+    "move": "/mnt/atlas/fangrui/LampEdit/native_project_production_20261027_v1/results/new50_sig_256_v1/root_coordinator/StarReal/component_cache/83/source_observed_fixture_rigid_clear_wall_pilot3_v1/rigid_move_A24_whole_vs_visibility.jpg",
+    "insert": "/mnt/atlas/fangrui/LampEdit/native_project_production_20261027_v1/results/new50_sig_256_v1/root_coordinator/StarReal/component_cache/83/three_whole_wall_targets_pilot3_v1/insert_orig_66663ad5/A24_whole_vs_visibility.jpg",
+    "replace": "/mnt/atlas/fangrui/LampEdit/native_project_production_20261027_v1/results/new50_sig_256_v1/root_coordinator/StarReal/component_cache/83/three_whole_wall_targets_pilot3_v1/replace_orig_7095c535/A24_whole_vs_visibility.jpg",
+    "move_replace": "/mnt/atlas/fangrui/LampEdit/native_project_production_20261027_v1/results/new50_sig_256_v1/root_coordinator/StarReal/component_cache/83/three_whole_wall_targets_pilot3_v1/move_replace_orig_65cbbefb/A24_whole_vs_visibility.jpg"
+  }
+}

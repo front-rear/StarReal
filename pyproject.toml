@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "starreal-pipeline"
+version = "0.1.0"
+description = "Auditable real-video geometry conditioning: ordinary/depth-aware PCF+bbox and two mask families"
+requires-python = ">=3.9"
+dependencies = ["numpy==2.0.2","opencv-python-headless==4.11.0.86","Pillow==11.3.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+namespaces = false
+
+[tool.setuptools.package-data]
+starreal = ["_frozen/**/*.py", "_frozen/**/*.cpp", "_frozen/**/*.h"]

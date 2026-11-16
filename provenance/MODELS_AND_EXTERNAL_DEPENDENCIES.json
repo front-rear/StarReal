@@ -1,0 +1,74 @@
+{
+  "schema": "StarReal.external_models.v1",
+  "weights_shipped": false,
+  "models": [
+    {
+      "name": "VGGT-1B",
+      "purpose": "Historical Native world-points, depth, intrinsics and extrinsics; current QH builds reuse verified same-timeline cached outputs",
+      "code_commit": "a288dd0f14786c93483e45524328726ab7b1b4ce",
+      "code_commit_evidence": "Read-only SFTP original tools/vggt/.git/refs/heads/main, 2026-11-16",
+      "weights_SHA256": "d15bf50a8615c8225ed48b51ea5cac673d82442ec0309036df555a053253afe0",
+      "upstream": "https://github.com/facebookresearch/vggt",
+      "entrypoints": [
+        "production_snapshot/upstream_native_producers/vggt_candidate.py",
+        "production_snapshot/upstream_native_producers/reuse_vggt_cache.py"
+      ],
+      "original_step3_SHA256": "f126e41197fd0e6a8b9b9664ae74d8f92e175bc5283223bccb454a5439121e56",
+      "original_step3_source_recovered": false,
+      "note": "Prior PROVENANCE records original step3 SHA; this export includes recovered candidate/cache producer source, does not falsely label it byte-identical to the missing step3 source. Actual case input SHA remains authoritative."
+    },
+    {
+      "name": "SAM2.1 Hiera Large",
+      "purpose": "Observed visible source-lamp image/video segmentation; not novel-B invisible geometry",
+      "code_commit": "2b90b9f5ceec907a1c18123530e92e794ad901a4",
+      "weights_SHA256": "2647878d5dfa5098f2f8649825738a9345572bae2d4350a2468587ece47dd318",
+      "weights_bytes": 898083611,
+      "upstream": "https://github.com/facebookresearch/sam2",
+      "QH_runtime": "runtime/sam2_private_cpu_py312_v1",
+      "QH_model_device": "cpu",
+      "python": "/mnt/atlas/fangrui/repro_video_20261105/_envs/pisco/bin/python",
+      "torch": "2.6.0+cu124 (CPU selected; package suffix does not mean a GPU was used)",
+      "entrypoints": [
+        "production_snapshot/all59/build_next_observed_parts_SAM49_QH_CPU_v1.py",
+        "production_snapshot/all59/build_case109_true4K_observed_SAM49_CPU_finite_20261116_v1.py",
+        "production_snapshot/upstream_native_producers/sam2_candidate.py"
+      ],
+      "case83_note": "Final v12 source visible RGB annotation is explicitly saved separately from original SAM candidate; not falsely reported as a new SAM inference."
+    },
+    {
+      "name": "Depth Anything 3 SMALL",
+      "purpose": "Earlier alternative monocular geometry pipeline; source for some old caches, not automatically eligible replacement for Native VGGT",
+      "upstream": "https://github.com/ByteDance-Seed/Depth-Anything-3",
+      "code_commit": null,
+      "weights_SHA256": null,
+      "provenance_gap": "No same-standard pinned commit/checkpoint SHA recovered in this export; legacy estimate scripts and actual per-case ESTIMATION must be consulted. Do not label DA3 cache as VGGT or automatically adopt case7578553.",
+      "entrypoints": [
+        "production_snapshot/legacy_real_inputs/estimate_gpu.py",
+        "production_snapshot/legacy_real_inputs/estimate_cpu.py"
+      ]
+    }
+  ],
+  "AI_service_API_for_current_condition_build": false,
+  "edited_RGB_neural_generator_run_for_current_construction": false,
+  "dependencies": {
+    "portable_core": {
+      "python": ">=3.9",
+      "numpy": "2.0.2",
+      "Pillow": "11.3.0",
+      "compiler": "g++ with C++17 and OpenMP",
+      "opencv-python-headless": "4.11.0.86"
+    },
+    "production_additional": [
+      "trimesh",
+      "scipy",
+      "imageio-ffmpeg (FFmpeg)",
+      "huggingface_hub"
+    ],
+    "upstream_model_dependencies": "Use upstream pinned code's dependency manifests; no globally automatic install/upgrade in current production environment"
+  },
+  "assets": {
+    "mesh_libraries": "Real user GLBs from 500+ lamp catalogue; exact raw SHA binding, no AI-generated replacement mesh in this export",
+    "rendered_reference": "Deterministic actual-asset views; observed source reference from actual RGB/SAM"
+  },
+  "no_credentials": true
+}

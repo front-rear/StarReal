@@ -1,0 +1,33 @@
+{
+  "case": "83",
+  "geometry_sources": {
+    "insert_orig_66663ad5": {
+      "path": "/mnt/atlas/fangrui/LampEdit/native_project_production_20261027_v1/results/new50_sig_256_v1/root_coordinator/StarReal/component_cache/83/three_whole_wall_targets_pilot3_v1/insert_orig_66663ad5/geometry.npz",
+      "vertices_key": "vertices",
+      "faces_key": "faces",
+      "rotation_key": "rotation"
+    },
+    "replace_orig_7095c535": {
+      "path": "/mnt/atlas/fangrui/LampEdit/native_project_production_20261027_v1/results/new50_sig_256_v1/root_coordinator/StarReal/component_cache/83/three_whole_wall_targets_pilot3_v1/replace_orig_7095c535/geometry.npz",
+      "vertices_key": "vertices",
+      "faces_key": "faces",
+      "rotation_key": "rotation"
+    },
+    "move_replace_orig_65cbbefb": {
+      "path": "/mnt/atlas/fangrui/LampEdit/native_project_production_20261027_v1/results/new50_sig_256_v1/root_coordinator/StarReal/component_cache/83/three_whole_wall_targets_pilot3_v1/move_replace_orig_65cbbefb/geometry.npz",
+      "vertices_key": "vertices",
+      "faces_key": "faces",
+      "rotation_key": "rotation"
+    }
+  },
+  "actual_pilot_review": "/tmp/starreal_uid1007_case83_cpu_v2/reviews/CASE83_THREE_WHOLE_WALL_TARGETS_ACTUAL9_REVIEW_v1.json",
+  "actual_pilot_review_SHA256": "23952b33c066aa236918090620249f7a63f9c9384e7bf45f2cea1a13142257cb",
+  "source_hidden_geometry_policy": {
+    "front_and_thickness": "coherent monocular shell estimate, actual source silhouette retained",
+    "back": "estimated only, not measured geometry",
+    "occluded_cord": "not fabricated, observed foreground at actual hair occlusion only",
+    "mask": "Original SAM shade plus separately recorded visible RGB annotations; oldSAM preserved",
+    "support": "actual observed wall plate on same clear continuous wall; Native-derived relative plane, not metric truth"
+  },
+  "component_only": true
+}

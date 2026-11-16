@@ -1,0 +1,13 @@
+{
+  "state": "PASS",
+  "original_sources_SHA_verified": 585,
+  "package_mirrors_SHA_verified": 11,
+  "scanned_text_files": 621,
+  "Python_syntax_files": 590,
+  "canonical_renderer_unchanged": true,
+  "historical_nonrunnable_candidates": [
+    "production_snapshot/all59/build_case106_three_whole_supported_targets_pilot3_QH_v1.py"
+  ],
+  "model_weights_media_tokens_included": false,
+  "GPU_used": false
+}
