@@ -1,0 +1,11 @@
+{
+  "request_sha256": "",
+  "png_sha256": "",
+  "record_sha256": "",
+  "propagation_entry_sha256": "",
+  "reviewer": "",
+  "observed_png": false,
+  "decision": "pending",
+  "visible_firstframe_pass": null,
+  "visual_findings": ""
+}

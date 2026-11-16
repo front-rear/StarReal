@@ -1,0 +1,92 @@
+{
+  "case": "demo_01",
+  "operation": "move_replace",
+  "fps": 10,
+  "frame_indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48
+  ],
+  "source_video": {
+    "path": "private/source.mkv",
+    "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "source_frames_index": {
+    "path": "private/frames.json",
+    "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "camera": {
+    "path": "private/move_replace_B.npz",
+    "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "asset": {
+    "path": "private/assigned.glb",
+    "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "condition_images": [
+    {
+      "path": "private/source.png",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "role": "<image1>: source frame"
+    },
+    {
+      "path": "private/target.png",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "role": "<image2>: assigned blue Q extent"
+    },
+    {
+      "path": "private/asset.png",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+      "role": "<image3>: entire assigned fixture"
+    }
+  ],
+  "qwen_prompt": "Edit <image1>. Remove the complete original fixture from P and insert one <image3> fixture within blue Q in <image2>. Keep all people.",
+  "propagation_caption": "Remove the entire original fixture from P. Place the single assigned replacement at Q. Preserve all people and their actions.",
+  "videocof_instruction": "Remove the original fixture completely and put one replacement at the specified target. Preserve people and their actions."
+}

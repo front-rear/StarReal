@@ -1,0 +1,22 @@
+{
+  "copied_exactly": {
+    "mfm_loaded_tensor_value_audit_v1.py": "4a59682ec5676d4749cdb4035f29a6c6a93706ee1d1c1e70d3e2309ac2b1c1dc",
+    "qwen21_propfly_loaded_value_audit_v1.py": "c05f25eef25548ab6dac07a692c57ec6b88d1be9d255171e293472f2fe3df9d4",
+    "qwen21_propfly_native_load_observer_v1.py": "7a8c32823c2c2b56c6f9d799be14c13bb7e20cf82cede2c04867e0f0d5e665cc",
+    "propfly_native_observed_runner_v1.py": "1a0ee08d01676f7cfedbbe8b6a9ace02674848146326c680edeb6ba5767364ff",
+    "propfly_full_video.py": "e3f182fcc3f5ff88014400bd52f6342b23823452b506bdb78c6be70736a9394b",
+    "fusionx_exact_loader_adapter_v1.py": "ce48dac670210434a55efa4778c832952d253cad80380311bc85688210435064"
+  },
+  "adapted": {
+    "qwen_batch_native_v14.py": "3ea99b1a4b3a1f8fb3a224ab91959027c5d8f3fb710ba79c6c0aec8766ff9adf",
+    "propfly_MR_local_input_corrections_native_v2480.py": "dfc5c1f5d091db7be8c58a070bcd8975575b6cb4179e9338833b8e6bbfdfa0cf",
+    "mr_local_input_corrections_native_v2480.py": "12d7fc666f58d69b64f9938775e25bc0041cf16c4bf235ce02765e4ce136d160",
+    "videocof_audited_resident.py": "8636b05d99b60c3b6d3bdaab9dd345d25898ffc0a469be592b416cf941409adf",
+    "fast_infer_full_resident.py": "5da8866940827a421ef30f14b3b72c844f9afaf8d2e4d79de725a7cbf426e79c",
+    "expansion_worker.py": "5f13071f85ec69724c04a5722d15ba836df6af5f2305bc26145bf77cc4cce0eb"
+  },
+  "geometry_references": {
+    "repair_prepare_user_pureP_three_v2451.py": "ceef5df3c4344f09fbcd56b517ab8745e42adc5d69bbe962186dc5a878d2a4da",
+    "repair_audit_four_alias_MR_Q_asset_family_v2481.py": "735da502b2e556f20dbdef739d1e00c5fe89b1a667ca1e9c6b500b9200067488"
+  }
+}

@@ -1,0 +1,490 @@
+{
+  "model_repo": "Qwen/Qwen-Image-2.1",
+  "model_revision": "d26bb61231c349cf6b7896fa83353113880e1ba3",
+  "official_repo_pin": "ab96caa944157ca28a4f36b695c3047549f48f98",
+  "diffusers_pin": "843f1743e259e510f22065c0cb917d417b98d9f5",
+  "native_pipeline_SHA256": "e75e4ce38d38e194edaac818bba99b2115b4bb2bfdbd15ce03a2813b0fe8856c",
+  "repo_pins": {
+    "propfly": "1c50638aaf62c27634852be5e8689970b835d788",
+    "videocof": "f45b8009616b3ef8e2024a7da585249b4c74fc2b"
+  },
+  "weights": [
+    {
+      "repo": "james16/PropFly",
+      "revision": "338ed3594cbb937894b9ef607e6cc62bda00205b",
+      "file": "PropFly-1.3B/diffusion_pytorch_model.bin",
+      "sha256": "b09d68ea69194f5874f4cf87edb8e06974f9d7939777ec4d7db34b8c0e8f481c",
+      "size": 4734485891
+    },
+    {
+      "repo": "Wan-AI/Wan2.1-VACE-1.3B-Diffusers",
+      "revision": "ec4d2cb062b548996b179d493fdd05340de702a1",
+      "file": "model_index.json",
+      "sha256": "078a0c056f61edae212c2e7e78fcb061e48a9bc886c08fb245bf5e165e371ea2",
+      "size": 408,
+      "small_file_digest_source": "direct CPU read at handoff"
+    },
+    {
+      "repo": "Wan-AI/Wan2.1-VACE-1.3B-Diffusers",
+      "revision": "ec4d2cb062b548996b179d493fdd05340de702a1",
+      "file": "scheduler/scheduler_config.json",
+      "sha256": "070dc020808eec985634b83015c1596425c264d8fa80afe22aa1e02e9e903e6c",
+      "size": 751,
+      "small_file_digest_source": "direct CPU read at handoff"
+    },
+    {
+      "repo": "Wan-AI/Wan2.1-VACE-1.3B-Diffusers",
+      "revision": "ec4d2cb062b548996b179d493fdd05340de702a1",
+      "file": "text_encoder/config.json",
+      "sha256": "6de5b5703cea483f528659de1e9f3b81955833a027b2a785d3c0f17dc07a938c",
+      "size": 850,
+      "small_file_digest_source": "direct CPU read at handoff"
+    },
+    {
+      "repo": "Wan-AI/Wan2.1-VACE-1.3B-Diffusers",
+      "revision": "ec4d2cb062b548996b179d493fdd05340de702a1",
+      "file": "text_encoder/model.safetensors.index.json",
+      "sha256": "31c4c7bcce679eaa0dd4667462394ddb013dc2f748e0bffc893dc9146a320dab",
+      "size": 22476,
+      "small_file_digest_source": "direct CPU read at handoff"
+    },
+    {
+      "repo": "Wan-AI/Wan2.1-VACE-1.3B-Diffusers",
+      "revision": "ec4d2cb062b548996b179d493fdd05340de702a1",
+      "file": "text_encoder/model-00003-of-00003.safetensors",
+      "sha256": "0da9ee284e21d1406df708788db1d502d95d75f69faa25cd26151bf8829b7c5f",
+      "size": 1442935480
+    },
+    {
+      "repo": "Wan-AI/Wan2.1-VACE-1.3B-Diffusers",
+      "revision": "ec4d2cb062b548996b179d493fdd05340de702a1",
+      "file": "text_encoder/model-00001-of-00003.safetensors",
+      "sha256": "a8e861969c7433e707cc5a74065d795d36cca07ec96eb6763eb4083df7248f58",
+      "size": 4935812536
+    },
+    {
+      "repo": "Wan-AI/Wan2.1-VACE-1.3B-Diffusers",
+      "revision": "ec4d2cb062b548996b179d493fdd05340de702a1",
+      "file": "text_encoder/model-00002-of-00003.safetensors",
+      "sha256": "d57d948ece4837d850b7a859a4415121d57cacf8b9ee1d4db200c67f592902d7",
+      "size": 4983103192
+    },
+    {
+      "repo": "Wan-AI/Wan2.1-VACE-1.3B-Diffusers",
+      "revision": "ec4d2cb062b548996b179d493fdd05340de702a1",
+      "file": "transformer/config.json",
+      "sha256": "58a07adcbe6ae67624d66918ca2ba65615f931c4a26d8f384ae8ac1e68de0608",
+      "size": 662,
+      "small_file_digest_source": "direct CPU read at handoff"
+    },
+    {
+      "repo": "Wan-AI/Wan2.1-VACE-1.3B-Diffusers",
+      "revision": "ec4d2cb062b548996b179d493fdd05340de702a1",
+      "file": "transformer/diffusion_pytorch_model.safetensors.index.json",
+      "sha256": "2ed4b491e7a7f3e8185526d5d9a259944871a122a1eec86808bac9194a965d83",
+      "size": 114130,
+      "small_file_digest_source": "direct CPU read at handoff"
+    },
+    {
+      "repo": "Wan-AI/Wan2.1-VACE-1.3B-Diffusers",
+      "revision": "ec4d2cb062b548996b179d493fdd05340de702a1",
+      "file": "transformer/diffusion_pytorch_model-00002-of-00002.safetensors",
+      "sha256": "dadaf1d5e9ccf826e2c497aa9fc2756a044f606d0aa919e5405a734a121bcf7e",
+      "size": 2146103400
+    },
+    {
+      "repo": "Wan-AI/Wan2.1-VACE-1.3B-Diffusers",
+      "revision": "ec4d2cb062b548996b179d493fdd05340de702a1",
+      "file": "transformer/diffusion_pytorch_model-00001-of-00002.safetensors",
+      "sha256": "192804a4e10b5bb0a13f5c224bc4ec9707b3b8cc0def8eea005dbce7c9d6752a",
+      "size": 4999964504
+    },
+    {
+      "repo": "Wan-AI/Wan2.1-VACE-1.3B-Diffusers",
+      "revision": "ec4d2cb062b548996b179d493fdd05340de702a1",
+      "file": "vae/config.json",
+      "sha256": "7a3afcf422b9a9d63e0b6ca7e0d3b5193220a61f5b203bb8417900bc090705e8",
+      "size": 724,
+      "small_file_digest_source": "direct CPU read at handoff"
+    },
+    {
+      "repo": "Wan-AI/Wan2.1-VACE-1.3B-Diffusers",
+      "revision": "ec4d2cb062b548996b179d493fdd05340de702a1",
+      "file": "vae/diffusion_pytorch_model.safetensors",
+      "sha256": "d6e524b3fffede1787a74e81b30976dce5400c4439ba64222168e607ed19e793",
+      "size": 507591892
+    },
+    {
+      "repo": "Wan-AI/Wan2.1-VACE-1.3B-Diffusers",
+      "revision": "ec4d2cb062b548996b179d493fdd05340de702a1",
+      "file": "tokenizer/special_tokens_map.json",
+      "sha256": "456b58fd240a06c743a7c2cf8008bec501240d68ebd1fc4018ea569505fea270",
+      "size": 7079,
+      "small_file_digest_source": "direct CPU read at handoff"
+    },
+    {
+      "repo": "Wan-AI/Wan2.1-VACE-1.3B-Diffusers",
+      "revision": "ec4d2cb062b548996b179d493fdd05340de702a1",
+      "file": "tokenizer/tokenizer_config.json",
+      "sha256": "89bef11d01c80a229079666dd470d536aba87b8eaa00b51cc481ba625be59269",
+      "size": 61786,
+      "small_file_digest_source": "direct CPU read at handoff"
+    },
+    {
+      "repo": "Wan-AI/Wan2.1-VACE-1.3B-Diffusers",
+      "revision": "ec4d2cb062b548996b179d493fdd05340de702a1",
+      "file": "tokenizer/spiece.model",
+      "sha256": "e3909a67b780650b35cf529ac782ad2b6b26e6d1f849d3fbb6a872905f452458",
+      "size": 4548313
+    },
+    {
+      "repo": "Wan-AI/Wan2.1-VACE-1.3B-Diffusers",
+      "revision": "ec4d2cb062b548996b179d493fdd05340de702a1",
+      "file": "tokenizer/tokenizer.json",
+      "sha256": "20a46ac256746594ed7e1e3ef733b83fbc5a6f0922aa7480eda961743de080ef",
+      "size": 16837459
+    }
+  ],
+  "cof_weights": [
+    {
+      "repo": "XiangpengYang/VideoCoF",
+      "revision": "766ff88960ec689d86695d96edb8a570ad16cfc0",
+      "file": "videocof.safetensors",
+      "sha256": "52f7e462ade0661e4623b58e57528f9b4695f6fdd6038d7fe956b9ffa81b8d62",
+      "size": 1246458124
+    },
+    {
+      "repo": "MonsterMMORPG/Wan_GGUF",
+      "revision": "648e3c527886eeacdd0e915bdfc273b4044469bb",
+      "file": "Wan2.1_Text_to_Video_14B_FusionX_LoRA.safetensors",
+      "sha256": "c653087fa7c9163abdd1a4c627bfc483966c6d78a4426667d1185f860951c30e",
+      "size": 316822496
+    },
+    {
+      "repo": "Wan-AI/Wan2.1-T2V-14B",
+      "revision": "a064a6c71f5be440641209c07bf2a5ce7a2ff5e4",
+      "file": "config.json",
+      "sha256": "7c9d7887442cb46716380bdf4426933d7cf88cbb31abcb434ea219322f5580ad",
+      "size": 250,
+      "small_file_digest_source": "direct CPU read at handoff"
+    },
+    {
+      "repo": "Wan-AI/Wan2.1-T2V-14B",
+      "revision": "a064a6c71f5be440641209c07bf2a5ce7a2ff5e4",
+      "file": "diffusion_pytorch_model.safetensors.index.json",
+      "sha256": "d62743ee76929dc76264d4b86abd710eab38157e17ab12659e66158efb8e069c",
+      "size": 96805,
+      "small_file_digest_source": "direct CPU read at handoff"
+    },
+    {
+      "repo": "Wan-AI/Wan2.1-T2V-14B",
+      "revision": "a064a6c71f5be440641209c07bf2a5ce7a2ff5e4",
+      "file": "Wan2.1_VAE.pth",
+      "sha256": "38071ab59bd94681c686fa51d75a1968f64e470262043be31f7a094e442fd981",
+      "size": 507609880
+    },
+    {
+      "repo": "Wan-AI/Wan2.1-T2V-14B",
+      "revision": "a064a6c71f5be440641209c07bf2a5ce7a2ff5e4",
+      "file": "diffusion_pytorch_model-00006-of-00006.safetensors",
+      "sha256": "91ac087a40b814331e87f5f015af11ba999275d48d2af49591b6bf7727d3c146",
+      "size": 7910235256
+    },
+    {
+      "repo": "Wan-AI/Wan2.1-T2V-14B",
+      "revision": "a064a6c71f5be440641209c07bf2a5ce7a2ff5e4",
+      "file": "diffusion_pytorch_model-00002-of-00006.safetensors",
+      "sha256": "b17ff172f262b4da91c31e8c46d3b7707f62cecfff6e18dd0072ab29eb350e46",
+      "size": 9839059648
+    },
+    {
+      "repo": "Wan-AI/Wan2.1-T2V-14B",
+      "revision": "a064a6c71f5be440641209c07bf2a5ce7a2ff5e4",
+      "file": "diffusion_pytorch_model-00003-of-00006.safetensors",
+      "sha256": "741fd1508cd0288f0bb0f4fb3df6734da521d5ff23746170c848564a367e2cea",
+      "size": 9839059744
+    },
+    {
+      "repo": "Wan-AI/Wan2.1-T2V-14B",
+      "revision": "a064a6c71f5be440641209c07bf2a5ce7a2ff5e4",
+      "file": "diffusion_pytorch_model-00004-of-00006.safetensors",
+      "sha256": "47b08ba289b127fc64979bc877ee07e1c87aeb8eb8cd47bcfd112682847981ba",
+      "size": 9839059744
+    },
+    {
+      "repo": "Wan-AI/Wan2.1-T2V-14B",
+      "revision": "a064a6c71f5be440641209c07bf2a5ce7a2ff5e4",
+      "file": "models_t5_umt5-xxl-enc-bf16.pth",
+      "sha256": "7cace0da2b446bbbbc57d031ab6cf163a3d59b366da94e5afe36745b746fd81d",
+      "size": 11361920418
+    },
+    {
+      "repo": "Wan-AI/Wan2.1-T2V-14B",
+      "revision": "a064a6c71f5be440641209c07bf2a5ce7a2ff5e4",
+      "file": "diffusion_pytorch_model-00005-of-00006.safetensors",
+      "sha256": "29e35f4cf0e3a61f4726c960f1babf71d65677a8c99fe704257d665c9498ee88",
+      "size": 9839059744
+    },
+    {
+      "repo": "Wan-AI/Wan2.1-T2V-14B",
+      "revision": "a064a6c71f5be440641209c07bf2a5ce7a2ff5e4",
+      "file": "diffusion_pytorch_model-00001-of-00006.safetensors",
+      "sha256": "569d54a07279b89f8281421fccf27ee2459ea853ce6845d3536b8664b0070078",
+      "size": 9887603256
+    },
+    {
+      "repo": "Wan-AI/Wan2.1-T2V-14B",
+      "revision": "a064a6c71f5be440641209c07bf2a5ce7a2ff5e4",
+      "file": "google/umt5-xxl/special_tokens_map.json",
+      "sha256": "7b8a9f5040adb67b5805abdfd42c1f8d0f3d0e711f10726580eb3789cd0ad61d",
+      "size": 6623,
+      "small_file_digest_source": "direct CPU read at handoff"
+    },
+    {
+      "repo": "Wan-AI/Wan2.1-T2V-14B",
+      "revision": "a064a6c71f5be440641209c07bf2a5ce7a2ff5e4",
+      "file": "google/umt5-xxl/tokenizer_config.json",
+      "sha256": "ed9a3a8b0faa71a70a32847e0435fe036e6e112d4df4edb7bb48a921e344dc05",
+      "size": 61728,
+      "small_file_digest_source": "direct CPU read at handoff"
+    },
+    {
+      "repo": "Wan-AI/Wan2.1-T2V-14B",
+      "revision": "a064a6c71f5be440641209c07bf2a5ce7a2ff5e4",
+      "file": "google/umt5-xxl/spiece.model",
+      "sha256": "e3909a67b780650b35cf529ac782ad2b6b26e6d1f849d3fbb6a872905f452458",
+      "size": 4548313
+    },
+    {
+      "repo": "Wan-AI/Wan2.1-T2V-14B",
+      "revision": "a064a6c71f5be440641209c07bf2a5ce7a2ff5e4",
+      "file": "google/umt5-xxl/tokenizer.json",
+      "sha256": "6e197b4d3dbd71da14b4eb255f4fa91c9c1f2068b20a2de2472967ca3d22602b",
+      "size": 16837417
+    }
+  ],
+  "environments": {
+    "qwen": {
+      "python": "3.12.16",
+      "torch": "2.8.0+cu128",
+      "diffusers": "0.42.1",
+      "transformers": "5.22.1",
+      "safetensors": "0.8.0",
+      "accelerate": "1.15.0",
+      "pillow": "11.3.0",
+      "numpy": "2.5.4",
+      "torchvision": "0.23.0+cu128"
+    },
+    "propfly": {
+      "python": "3.12.16",
+      "torch": "2.8.0+cu128",
+      "diffusers": "0.42.1",
+      "transformers": "5.22.1",
+      "safetensors": "0.8.0",
+      "accelerate": "1.15.0",
+      "pillow": "11.3.0",
+      "numpy": "2.5.4",
+      "torchvision": "0.23.0+cu128",
+      "imageio": "2.38.1",
+      "imageio-ffmpeg": "0.8.1",
+      "peft": "0.21.2",
+      "decord": "0.6.0",
+      "sentencepiece": "0.2.3",
+      "einops": "0.8.2"
+    },
+    "videocof": {
+      "python": "3.12.16",
+      "torch": "2.8.0+cu128",
+      "diffusers": "0.42.1",
+      "transformers": "5.22.1",
+      "safetensors": "0.8.0",
+      "accelerate": "1.15.0",
+      "pillow": "11.3.0",
+      "numpy": "2.5.4",
+      "torchvision": "0.23.0+cu128",
+      "imageio": "2.38.1",
+      "imageio-ffmpeg": "0.8.1",
+      "peft": "0.21.2",
+      "decord": "0.6.0",
+      "sentencepiece": "0.2.3",
+      "einops": "0.8.2"
+    }
+  },
+  "qwen_files": [
+    {
+      "file": "model_index.json",
+      "size": 447,
+      "git_blob": "85d02d05f150cbe24a8fd3542062b565767bbe7b",
+      "LFS_SHA256": null
+    },
+    {
+      "file": "processor/added_tokens.json",
+      "size": 707,
+      "git_blob": "b54f9135e44c1e81047e8d05cb027af8bc039eed",
+      "LFS_SHA256": null
+    },
+    {
+      "file": "processor/chat_template.jinja",
+      "size": 5292,
+      "git_blob": "124386803f142761528f710e77ae483f5f8c4fc4",
+      "LFS_SHA256": null
+    },
+    {
+      "file": "processor/merges.txt",
+      "size": 1671853,
+      "git_blob": "31349551d90c7606f325fe0f11bbb8bd5fa0d7c7",
+      "LFS_SHA256": null
+    },
+    {
+      "file": "processor/preprocessor_config.json",
+      "size": 782,
+      "git_blob": "2fa6553554f69b4e3a6b742a75264ff9dff90ad0",
+      "LFS_SHA256": null
+    },
+    {
+      "file": "processor/special_tokens_map.json",
+      "size": 613,
+      "git_blob": "ac23c0aaa2434523c494330aeb79c58395378103",
+      "LFS_SHA256": null
+    },
+    {
+      "file": "processor/tokenizer.json",
+      "size": 11422654,
+      "git_blob": "cd71f61a15a522601badb3dc960d800d9cb3766c",
+      "LFS_SHA256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+    },
+    {
+      "file": "processor/tokenizer_config.json",
+      "size": 5445,
+      "git_blob": "fec7f182135c384a08ea2fc9635566ca79c45afc",
+      "LFS_SHA256": null
+    },
+    {
+      "file": "processor/video_preprocessor_config.json",
+      "size": 817,
+      "git_blob": "e32b1d90356f74457edbfca27aa1e121dab7cdc7",
+      "LFS_SHA256": null
+    },
+    {
+      "file": "processor/vocab.json",
+      "size": 2776833,
+      "git_blob": "4783fe10ac3adce15ac8f358ef5462739852c569",
+      "LFS_SHA256": null
+    },
+    {
+      "file": "scheduler/scheduler_config.json",
+      "size": 485,
+      "git_blob": "45cd05b021892b1cafbd16d61ce692637e88bedd",
+      "LFS_SHA256": null
+    },
+    {
+      "file": "text_encoder/config.json",
+      "size": 1517,
+      "git_blob": "581ce4655dde5272e577065dd08b1fda7e97d6e8",
+      "LFS_SHA256": null
+    },
+    {
+      "file": "text_encoder/generation_config.json",
+      "size": 213,
+      "git_blob": "bdb4e0372b04220c80df250f2b3354d1c81c97cb",
+      "LFS_SHA256": null
+    },
+    {
+      "file": "text_encoder/model-00001-of-00004.safetensors",
+      "size": 4998056552,
+      "git_blob": "1138cc4ce99d967e54cdbc9b28cc0f89d898d2df",
+      "LFS_SHA256": "dde00291b5f7fb92013895310a3da0ddba78674df9f10d505d375243dc01fc6f"
+    },
+    {
+      "file": "text_encoder/model-00002-of-00004.safetensors",
+      "size": 4915962464,
+      "git_blob": "d1f034717f74efe3412b09a85837508df460d3ce",
+      "LFS_SHA256": "9047faccc0a6d98496a52d55f27be1c94a9c259d1e283fbea0128d054a948d42"
+    },
+    {
+      "file": "text_encoder/model-00003-of-00004.safetensors",
+      "size": 4915962496,
+      "git_blob": "a369d67f72de0730ec13f5c0d4976cc6ef8c1586",
+      "LFS_SHA256": "8c54187654c0176b73ae73785bf791dc9a14c9df7fb4310083a09d42048cb57e"
+    },
+    {
+      "file": "text_encoder/model-00004-of-00004.safetensors",
+      "size": 2704357976,
+      "git_blob": "cf023365b5afdb51320865b5723a453e82154064",
+      "LFS_SHA256": "5311532aaaeae3259eb6a7b2c600636be1159adf7ded35f53579f7d0e7d43cdd"
+    },
+    {
+      "file": "text_encoder/model.safetensors.index.json",
+      "size": 67795,
+      "git_blob": "6d4d74c934b05b8addb0744305eef3674650cd8b",
+      "LFS_SHA256": null
+    },
+    {
+      "file": "transformer/config.json",
+      "size": 370,
+      "git_blob": "706df60672976086089e99f6595037f917d7602e",
+      "LFS_SHA256": null
+    },
+    {
+      "file": "transformer/diffusion_pytorch_model-00001-of-00002.safetensors",
+      "size": 9968332504,
+      "git_blob": "6a7e90b3b727102a38d4a4a396a3c7593302030d",
+      "LFS_SHA256": "9e6bc2d641e67bf277895ea8777141044a38f3edb7101bc469b2961dd7c36b4b"
+    },
+    {
+      "file": "transformer/diffusion_pytorch_model-00002-of-00002.safetensors",
+      "size": 4261951904,
+      "git_blob": "c1822764e9877e75840cd9d6e01513fa0be99e4f",
+      "LFS_SHA256": "3aaf234dcbe128530479735854a346b5e3e66283b7c11db56f836bbd1c13ebaa"
+    },
+    {
+      "file": "transformer/diffusion_pytorch_model.safetensors.index.json",
+      "size": 30283,
+      "git_blob": "bd64579cfd093a6a4ea8fb492217790018c53c0d",
+      "LFS_SHA256": null
+    },
+    {
+      "file": "vae/config.json",
+      "size": 2079,
+      "git_blob": "ac6fe795d898a5eff16e4527256c2d039f5b0d4b",
+      "LFS_SHA256": null
+    },
+    {
+      "file": "vae/diffusion_pytorch_model.safetensors",
+      "size": 1350989512,
+      "git_blob": "5c78907e022a677ffc002bd10150a1a521e89e8b",
+      "LFS_SHA256": "a07a1b7c4ee2966a1b3bdc37de9b4f983d56937e46619f709a80b6e490675417"
+    }
+  ],
+  "propfly_native_sources": {
+    "demo.py": "a3aca487d794fad0e7c2dc9c597b92d251c8b65955f9c75775e637d3005b43af",
+    "demo.sh": "2040a2f4adfc40199d7483085f148c867a49e34e5f7516d7cec7dab7fdc24ad3",
+    "pipeline_vace_video.py": "c6e5492164e842368bd9f403d6c3416cac06cc768f28349eda8e39375163417d",
+    "propfly_full_video.py": "e3f182fcc3f5ff88014400bd52f6342b23823452b506bdb78c6be70736a9394b"
+  },
+  "propfly_base_runtime_files": [
+    "model_index.json",
+    "scheduler/scheduler_config.json",
+    "text_encoder/config.json",
+    "text_encoder/model.safetensors.index.json",
+    "text_encoder/model-00003-of-00003.safetensors",
+    "text_encoder/model-00001-of-00003.safetensors",
+    "text_encoder/model-00002-of-00003.safetensors",
+    "transformer/config.json",
+    "transformer/diffusion_pytorch_model.safetensors.index.json",
+    "transformer/diffusion_pytorch_model-00002-of-00002.safetensors",
+    "transformer/diffusion_pytorch_model-00001-of-00002.safetensors",
+    "vae/config.json",
+    "vae/diffusion_pytorch_model.safetensors",
+    "tokenizer/special_tokens_map.json",
+    "tokenizer/tokenizer_config.json",
+    "tokenizer/spiece.model",
+    "tokenizer/tokenizer.json"
+  ],
+  "cof_source_sha256": {
+    "fast_infer.py": "7a03505ef28e83a0364553fc79002bd84227256e406c01140d76801b8601a689",
+    "fast_infer_full_resident.py": "5da8866940827a421ef30f14b3b72c844f9afaf8d2e4d79de725a7cbf426e79c"
+  },
+  "cof_lora_utils_sha256": "9836162f3c59db570497adaaaf8fd80a58faa3eff844156dcfe53d1742af31c8",
+  "cof_config_sha256": "21fe4409b664385a1c1cc5c23d92506ffb05ef3c374a18de9df67b715dca07e9"
+}

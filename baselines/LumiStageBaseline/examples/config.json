@@ -1,0 +1,14 @@
+{
+  "qwen_python": "../envs/qwen/bin/python",
+  "propfly_python": "../envs/propfly/bin/python",
+  "cof_python": "../envs/videocof/bin/python",
+  "qwen_model": "../models/Qwen-Image-2.1",
+  "propfly_repo": "../upstream/PropFly",
+  "cof_repo": "../upstream/VideoCoF",
+  "propfly_base": "../models/Wan2.1-VACE-1.3B-Diffusers",
+  "propfly_method": "../models/PropFly/diffusion_pytorch_model.bin",
+  "cof_base": "../models/Wan2.1-T2V-14B",
+  "cof_method": "../models/VideoCoF/videocof.safetensors",
+  "cof_fusionx": "../models/FusionX/fusionx.safetensors",
+  "gpu_lock": "../runs/device0.lock"
+}

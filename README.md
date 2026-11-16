@@ -2,6 +2,12 @@
 
 这是一份从实际生产目录提取的、可追溯的 real case 条件构造代码。它包含普通 PCF+bbox、固定世界坐标的 depth-aware PCF+bbox，以及灯具轮廓 / bbox 两类 Color 和 signed Intensity 条件。私有仓库不包含真实视频、灯具 GLB、模型权重、训练包或登录凭据。
 
+## 灯具编辑 Baseline
+
+灯具编辑对照实验的运行代码与中文说明位于 **[baselines/LumiStageBaseline](baselines/LumiStageBaseline/README.md)**，包括 Qwen-Image-2.1 首帧编辑＋PropFly 视频传播和 VideoCoF＋FusionX 两条路线。该目录独立于下述条件构造代码，提供输入准备、固定参数、模型加载审计、49 帧检查、人工审核绑定与有限队列续接。
+
+首次使用请从 Baseline README 阅读环境、复现步骤、方法可用条件和验证记录；权重、真实视频、灯具资产和生成结果由外部路径提供，未上传到本仓库。完整视频生成与编辑效果通过分别记录，失败结果保留。
+
 本次导出对应 2026-11-16 的生产状态：**54/59 个原始数字 ID 已完成当前条件包的青海/HF核验**。99、100、101、103、7578553 尚未完成。54 个 ID 不等于 54 个不同语义场景，也不代表新增了有监督的 edited-B RGB 真值。
 
 ## 从哪里读

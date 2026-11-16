@@ -1,0 +1,20 @@
+[
+  {
+    "stage": "qwen",
+    "requests": [
+      "case/request.json"
+    ],
+    "config": "config.json",
+    "output": "runs/firstframe",
+    "admission": "case/admission.json"
+  },
+  {
+    "stage": "videocof",
+    "requests": [
+      "case/request.json"
+    ],
+    "config": "config.json",
+    "output": "runs/cof",
+    "admission": "case/admission.json"
+  }
+]

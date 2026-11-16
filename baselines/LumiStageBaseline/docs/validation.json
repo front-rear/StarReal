@@ -1,0 +1,33 @@
+{
+  "real_case_cpu": {
+    "case": "83",
+    "operation": "replace",
+    "original_request_SHA256": "608ab72d563f14e359ed5580b1d1a91f24f8d019688f24eb549c88e0ba95fe20",
+    "original_CoF_batch_SHA256": "0d6cfba22b1c5122d864099381931f4731a553eeaebe04b19dac89956d53cc7d",
+    "asset_SHA256": "f2d37ea6414858489fe415d54898c0d7d19d36e2e3ce6ede28439b995040341b",
+    "source_SHA256": "e7bc822a31e1d23a9c02a30385ef86e49fc818c83d96f333c5a7a0d651e95567",
+    "frames": 49,
+    "source_size": [
+      1280,
+      704
+    ],
+    "conditions": 4,
+    "A_projected_frames": 49,
+    "B_projected_frames": 49,
+    "compared_cof_and_original_RGB49": true,
+    "display_board_created": true,
+    "gpu_run": false,
+    "quality_claimed": false
+  },
+  "portable_cpu_checks": {
+    "synthetic_full_RGB49": true,
+    "synthetic_contact_and_trajectory_board": true,
+    "tampered_SHA_rejected": true,
+    "wrong_pureP_rejected": true,
+    "example_dry_run": true,
+    "all_python_AST_parse": true,
+    "production_exact_code": 6,
+    "relative_document_links": 7
+  },
+  "GPU_rerun_on_portable_code": false
+}
